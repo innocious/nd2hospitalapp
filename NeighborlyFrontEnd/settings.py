@@ -16,4 +16,9 @@ API_VERSION = 'v1'
 #API_URL = " https://neighborlyapi.azurewebsites.net/api/"
 
 # for local host if Azure functions served locally
-API_URL = "http://localhost:7071/api"
+# API_URL = "http://localhost:7071/api"# Inside file settings.py
+
+# ------- For production -------
+# where APP_NAME is your Azure Function App name 
+
+API_URL = "https://nd2hospitalfunc.azurewebsites.net/api/"
