@@ -8,7 +8,7 @@ import json
 from feedgen.feed import FeedGenerator
 from flask import make_response
 from urllib.parse import urljoin
-# from werkzeug.contrib.atom import AtomFeed
+from werkzeug.contrib.atom import AtomFeed
 
 app = Flask(__name__)
 Bootstrap(app)
@@ -46,7 +46,7 @@ def rss():
     fg = FeedGenerator()
     fg.title('Feed title')
     fg.description('Feed Description')
-    fg.link(href='https://neighborly-client-v1.azurewebsites.net/')
+    fg.link(href='https://nd2hospitalapp.azurewebsites.net')
     
 
     response = requests.get(settings.API_URL + '/getAdvertisements')
