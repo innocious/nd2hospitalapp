@@ -2,23 +2,24 @@
 
 url = "https://pypi.python.org/simple"
 verify_ssl = true
-name = "pypi"
-
-
-[packages]
-
-flask = "*"
-requests = "*"
+name = "pypi"       
+                     
+                     
+[packages]           
+                     
+flask = "*"          
+requests = "*"       
 flask-bootstrap = "*"
-flask-restplus = "*"
+flask-restplus = "*" 
 flask-swagger-ui = "*"
-werkzeug = "===0.16.1"
+werkzeug = "===2.0.1"
 azure-functions = "*"
-azure-cosmos = "*"
-pymongo = "*"
-azure-cli-core = "*"
-feedgen = "*"
-
-
-[dev-packages]
-
+azure-cosmos = "*"   
+pymongo = "*"        
+azure-cli-core = "*" 
+feedgen = "*"        
+                     
+                     
+[dev-packages]       
+                     
+                     

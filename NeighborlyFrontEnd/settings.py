@@ -1,5 +1,6 @@
 #--------- Flask settings
 SERVER_HOST = 'https://nd2hospitalapp.azurewebsites.net' # Update this for the appropriate front-end website when up
+# SERVER_HOST ='0.0.0.0'
 SERVER_PORT = 5000
 FLASK_DEBUG = True # Do not use debug mode in prod
 

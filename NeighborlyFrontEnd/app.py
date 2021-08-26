@@ -8,7 +8,7 @@ import json
 from feedgen.feed import FeedGenerator
 from flask import make_response
 from urllib.parse import urljoin
-from werkzeug.contrib.atom import AtomFeed
+# from werkzeug.contrib.atom import AtomFeed
 
 app = Flask(__name__)
 Bootstrap(app)
@@ -133,6 +133,7 @@ def delete_ad_request(id):
 def main():
     print(' ----->>>> Flask Python Application running in development server')
     app.run(host=settings.SERVER_HOST, port=settings.SERVER_PORT, debug=settings.FLASK_DEBUG)
+    # sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 
 
 if __name__ == '__main__':
